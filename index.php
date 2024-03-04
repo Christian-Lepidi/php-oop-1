@@ -11,7 +11,7 @@ class Production{
     $this->vote = $vote;
   }
   public function getText(){
-    return (string)$this->title."".$this->language."".$this->vote."";
+    return (string)" TITOLO:".$this->title." LINGUA:".$this->language." VOTO:".$this->vote."";
   }
 }
 
