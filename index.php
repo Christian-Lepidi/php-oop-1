@@ -1,7 +1,7 @@
 <?php 
 
-require_once __DIR__."/Models/productions.php";
-require_once __DIR__."/Models/db.php";
+require_once __DIR__."/Models/Productions.php";
+require_once __DIR__."/db.php";
 
 
 ?>
@@ -19,6 +19,8 @@ require_once __DIR__."/Models/db.php";
     <li><b>TITOLO:</b><?php echo $production->title?></li>
     <li><b>LINGUA:</b><?php echo $production->language?></li>
     <li><b>VOTO:</b><?php echo $production->vote?></li>
+    <li><b>GENERE:</b><?php echo $production->genre->name?></li>
+    <li><b>DESCRIZIONE:</b><?php echo $production->genre->description?></li>
    </ul> 
   <?php endforeach; ?>  
 </body>
