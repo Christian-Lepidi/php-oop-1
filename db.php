@@ -8,7 +8,7 @@ $letal_wheapon = new Movie(" Letal Wheapon"," English", 7,new Genre("action","sh
 
 $the_lord_of_the_ring = new Movie(" The Lord of the Ring"," English", 9, new Genre("fantasy","magic world"),"1.5 mld","235 min.");
 
-$true_detective = new TVSerie(" True Detective","English", 7.5,new Genre("thriller","mysteries and murders"),2);
+$true_detective = new TVSerie(" True Detective","English", 7,new Genre("thriller","mysteries and murders"),2);
 
 
 $productions = [
